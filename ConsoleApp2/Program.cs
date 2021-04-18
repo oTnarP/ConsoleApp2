@@ -8,6 +8,7 @@ namespace ConsoleApp2
         {
             DateTime dateTime = DateTime.Now;
             Console.WriteLine(dateTime);
+
         }
     }
 }
