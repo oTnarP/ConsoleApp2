@@ -6,16 +6,15 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            //All Variables
+            //Array
 
-            int age = 22;
-            string name = "Pranto";
-            char eyes = '2';
-            decimal rice = 2.5M;
-            DateTime dateTime = DateTime.Now;
+            int[] ages = new int[3];
+            ages[0] = 10;
+            ages[1] = 20;
+            ages[2] = 30;
 
 
-            Console.WriteLine("My name is " + name + " and I am " + age + " years old. I am gonna buy " + rice + " KG Rice and Current Time is : " + dateTime);
+            Console.WriteLine(ages[2] + ages[1]);
         }
     }
 }
